@@ -8,8 +8,8 @@ type: landing
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
+      # Change this to admin so it links to the profile you already made!
+      username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
@@ -20,29 +20,23 @@ sections:
         education: ''
         interests: ''
     design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: md 
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium 
+        shape: circle 
+        
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        My research leverages advanced geospatial technologies, specifically SAR (Sentinel-1 and NISAR) data, to monitor agricultural drought and soil health. 
+        
+        My current work as a Graduate Research Assistant at Michigan State University and Assistant Professor at Dr. Rajendra Prasad Central Agricultural University focuses on developing high-resolution soil moisture data products and improving SAR target detection frameworks for Open Water, Natural Landscape, and Urban Areas.
     design:
       columns: '1'
   - block: collection
