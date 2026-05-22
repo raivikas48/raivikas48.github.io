@@ -42,7 +42,7 @@ social:
     link: 'mailto:vikas.soils@rpcau.ac.in'
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/YOUR_ORCID_ID
+    link: https://orcid.org/0000-0003-3249-2567
 ---
 
 I am currently a Graduate Research Assistant II at Michigan State University and an Assistant Professor cum Scientist at Dr. Rajendra Prasad Central Agricultural University. My work bridges soil physics and computational tools to develop high-resolution soil moisture data products across the Indian subcontinent.
