@@ -31,12 +31,33 @@ sections:
         
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'Academic Portfolio'
       subtitle: ''
       text: |-
-        My research leverages advanced geospatial technologies, specifically SAR (Sentinel-1 and NISAR) data, to monitor agricultural drought and soil health. 
+        {{< tabs >}}
         
-        My current work as a Graduate Research Assistant at Michigan State University and Assistant Professor at Dr. Rajendra Prasad Central Agricultural University focuses on developing high-resolution soil moisture data products and improving SAR target detection frameworks for Open Water, Natural Landscape, and Urban Areas.
+        {{< tab name="📝 Research Papers" >}}
+        * **Rai, V. K.**, et al. (Under Review). *Hotspot Mapping and Regional Characterization of Evolving Agricultural Drought over India*. 
+        * **Rai, V. K.**, et al. (In Prep). *Pedotransfer functions in the Indo-Gangetic Plains*. 
+        {{< /tab >}}
+        
+        {{< tab name="🏆 Awards & Honors" >}}
+        * **Netaji Subhas ICAR International Fellowship** (2025)
+        * **Graduate Research Assistantship**, Michigan State University
+        {{< /tab >}}
+        
+        {{< tab name="🎤 Conferences" >}}
+        * **IGARSS 2026** – Washington, D.C. (Upcoming, Aug 2026)
+        * **Technical Workshop on Level-2 NISAR Data Processing** – Organizer (March 2026)
+        {{< /tab >}}
+        
+        {{< tab name="🔬 Research Activities" >}}
+        * **Agricultural Drought Vulnerability Index (ADVI):** Developing forecasting models for India and Southeast Asia.
+        * **Methane Risk Index (MRI):** Synthesis project for South and Southeast Asia at a 100-meter spatial resolution.
+        * **SAR Target Detection:** Refining classification logic thresholds for Open Water, Natural Landscape, and Urban Areas using NISAR and Sentinel-1 data.
+        {{< /tab >}}
+        
+        {{< /tabs >}}
     design:
       columns: '1'
   - block: collection
